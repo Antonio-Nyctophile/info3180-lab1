@@ -3,11 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
     <title>My Website - About</title>
 </head>
 
 <body>
     <h1>Antonio Brown</h1>
+
     <p>I really don't know how to describe my self, but let me add what my friends and others say about me.
         I'll start off like it's a fairytale story, Once upon a time, there was a child bornt into a family that
         made a massive bet on his gender. All the details weren't clear, but that's how he ended up with two lovely God
@@ -23,6 +25,7 @@
         Computing industry(not sure of which area to be exact).
         I'm sorry to say, but this is the end.
     </p>
+    <img src="{{url_for('static', filename='Tony.jpg')}}" alt="Tony Stark">
 </body>
 
 </html>
